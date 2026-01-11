@@ -1,0 +1,2 @@
+# Treat Jupyter notebooks as binary to avoid messy JSON diffs on GitHub
+*.ipynb binary

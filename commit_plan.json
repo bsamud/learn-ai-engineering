@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "total_commits": 60,
+    "date_range": {
+      "start": "2025-09-20",
+      "end": "2025-10-31"
+    },
+    "generated_at": "2026-01-09T21:43:37.656350"
+  },
+  "commits": [
+    {
+      "id": 1,
+      "date": "2025-09-20 18:07:01",
+      "message": "Initial commit: AI Academy project structure",
+      "files": [
+        ".gitignore",
+        "LICENSE"
+      ],
+      "phase": 1
+    },
+    {
+      "id": 2,
+      "date": "2025-09-21 19:17:15",
+      "message": "Add ML Engineering notebooks and resources",
+      "files": [
+        "ML Engineering/"
+      ],
+      "phase": 1
+    },
+    {
+      "id": 3,
+      "date": "2025-09-22 11:08:47",
+      "message": "Add workshop notebooks for fraud detection and SageMaker",
+      "files": [
+        "fraud_detection_xgboost_1hour.ipynb",
+        "sagemaker_ml_workshop.ipynb",
+        "sagemaker_xgboost_fintech_workshop.ipynb"
+      ],
+      "phase": 1
+    },
+    {
+      "id": 4,
+      "date": "2025-09-23 09:43:47",
+      "message": "Add Agentic AI track structure and requirements",
+      "files": [
+        "Agentic AI/README.md",
+        "Agentic AI/requirements.txt"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 5,
+      "date": "2025-09-24 22:34:05",
+      "message": "Add utility functions for Agentic AI",
+      "files": [
+        "Agentic AI/src/__init__.py",
+        "Agentic AI/src/utils.py"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 6,
+      "date": "2025-09-25 17:27:02",
+      "message": "Implement LLM client with multi-provider support",
+      "files": [
+        "Agentic AI/src/llm_client.py"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 7,
+      "date": "2025-09-26 08:05:13",
+      "message": "Add tool registry for function calling",
+      "files": [
+        "Agentic AI/src/tool_registry.py"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 8,
+      "date": "2025-09-27 11:32:38",
+      "message": "Implement agent framework with ReAct pattern",
+      "files": [
+        "Agentic AI/src/agent_framework.py"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 9,
+      "date": "2025-09-28 08:35:12",
+      "message": "Add calculator tool with math operations",
+      "files": [
+        "Agentic AI/tools/calculator.py"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 10,
+      "date": "2025-09-29 19:41:44",
+      "message": "Add web search tool with mock API",
+      "files": [
+        "Agentic AI/tools/web_search.py"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 11,
+      "date": "2025-09-30 20:55:00",
+      "message": "Add 01_llm_basics: LLM fundamentals notebook",
+      "files": [
+        "Agentic AI/notebooks/01_llm_basics.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 12,
+      "date": "2025-10-01 20:51:10",
+      "message": "Update 01_llm_basics: add API setup",
+      "files": [
+        "Agentic AI/notebooks/01_llm_basics.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 13,
+      "date": "2025-10-02 19:27:21",
+      "message": "Update 01_llm_basics: add token counting",
+      "files": [
+        "Agentic AI/notebooks/01_llm_basics.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 14,
+      "date": "2025-10-03 12:09:13",
+      "message": "Update 01_llm_basics: add parameters",
+      "files": [
+        "Agentic AI/notebooks/01_llm_basics.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 15,
+      "date": "2025-10-04 09:22:54",
+      "message": "Add 02_prompt_engineering: prompt engineering notebook",
+      "files": [
+        "Agentic AI/notebooks/02_prompt_engineering.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 16,
+      "date": "2025-10-05 13:38:16",
+      "message": "Update 02_prompt_engineering: add templates",
+      "files": [
+        "Agentic AI/notebooks/02_prompt_engineering.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 17,
+      "date": "2025-10-06 20:02:46",
+      "message": "Update 02_prompt_engineering: add few-shot patterns",
+      "files": [
+        "Agentic AI/notebooks/02_prompt_engineering.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 18,
+      "date": "2025-10-07 16:18:53",
+      "message": "Add 03_tool_use_fundamentals: tool use basics notebook",
+      "files": [
+        "Agentic AI/notebooks/03_tool_use_fundamentals.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 19,
+      "date": "2025-10-08 18:39:56",
+      "message": "Update 03_tool_use_fundamentals: add tool definitions",
+      "files": [
+        "Agentic AI/notebooks/03_tool_use_fundamentals.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 20,
+      "date": "2025-10-09 08:14:52",
+      "message": "Add Agentic AI learning guide",
+      "files": [
+        "Agentic AI/docs/LEARNING_GUIDE.md"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 21,
+      "date": "2025-10-09 21:23:36",
+      "message": "Update 03_tool_use_fundamentals: add exercises",
+      "files": [
+        "Agentic AI/notebooks/03_tool_use_fundamentals.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 22,
+      "date": "2025-10-10 08:51:20",
+      "message": "Add agent patterns reference documentation",
+      "files": [
+        "Agentic AI/docs/AGENT_PATTERNS.md"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 23,
+      "date": "2025-10-10 10:29:24",
+      "message": "Add 07_autonomous_workflows: autonomous workflows notebook",
+      "files": [
+        "Agentic AI/notebooks/07_autonomous_workflows.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 24,
+      "date": "2025-10-10 11:42:17",
+      "message": "Add 06_multi_agent_systems: multi-agent systems notebook",
+      "files": [
+        "Agentic AI/notebooks/06_multi_agent_systems.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 25,
+      "date": "2025-10-10 14:17:29",
+      "message": "Add 05_react_agents: ReAct agent notebook",
+      "files": [
+        "Agentic AI/notebooks/05_react_agents.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 26,
+      "date": "2025-10-10 18:14:49",
+      "message": "Add 04_function_calling: function calling notebook",
+      "files": [
+        "Agentic AI/notebooks/04_function_calling.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 27,
+      "date": "2025-10-10 21:49:49",
+      "message": "Add 08_capstone_agent: capstone project template notebook",
+      "files": [
+        "Agentic AI/notebooks/08_capstone_agent.ipynb"
+      ],
+      "phase": 2
+    },
+    {
+      "id": 28,
+      "date": "2025-10-11 14:17:04",
+      "message": "Add AI Engineering track structure and requirements",
+      "files": [
+        "AI Engineering/README.md",
+        "AI Engineering/requirements.txt"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 29,
+      "date": "2025-10-12 11:58:36",
+      "message": "Add LLM utilities with cost tracking",
+      "files": [
+        "AI Engineering/src/__init__.py",
+        "AI Engineering/src/llm_utils.py"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 30,
+      "date": "2025-10-13 22:45:20",
+      "message": "Implement embedding utilities and vector store",
+      "files": [
+        "AI Engineering/src/embedding_utils.py"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 31,
+      "date": "2025-10-14 11:41:31",
+      "message": "Add RAG pipeline components",
+      "files": [
+        "AI Engineering/src/rag_pipeline.py"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 32,
+      "date": "2025-10-15 14:56:58",
+      "message": "Implement fine-tuning utilities",
+      "files": [
+        "AI Engineering/src/finetuning_utils.py"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 33,
+      "date": "2025-10-16 18:29:09",
+      "message": "Add evaluation framework with LLM-as-judge",
+      "files": [
+        "AI Engineering/src/evaluation.py"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 34,
+      "date": "2025-10-17 19:37:27",
+      "message": "Add 01_llm_apis: LLM API integration notebook",
+      "files": [
+        "AI Engineering/notebooks/01_llm_apis.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 35,
+      "date": "2025-10-18 22:37:25",
+      "message": "Update 01_llm_apis: add OpenAI setup",
+      "files": [
+        "AI Engineering/notebooks/01_llm_apis.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 36,
+      "date": "2025-10-19 13:14:08",
+      "message": "Update 01_llm_apis: add cost tracking",
+      "files": [
+        "AI Engineering/notebooks/01_llm_apis.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 37,
+      "date": "2025-10-20 10:40:10",
+      "message": "Add 02_structured_outputs: structured outputs notebook",
+      "files": [
+        "AI Engineering/notebooks/02_structured_outputs.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 38,
+      "date": "2025-10-21 20:43:27",
+      "message": "Update 02_structured_outputs: add entity extraction",
+      "files": [
+        "AI Engineering/notebooks/02_structured_outputs.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 39,
+      "date": "2025-10-22 17:04:24",
+      "message": "Update 02_structured_outputs: add Pydantic models",
+      "files": [
+        "AI Engineering/notebooks/02_structured_outputs.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 40,
+      "date": "2025-10-23 16:55:00",
+      "message": "Add 03_embeddings_vectors: embeddings and vectors notebook",
+      "files": [
+        "AI Engineering/notebooks/03_embeddings_vectors.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 41,
+      "date": "2025-10-24 18:46:07",
+      "message": "Update 03_embeddings_vectors: add similarity search",
+      "files": [
+        "AI Engineering/notebooks/03_embeddings_vectors.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 42,
+      "date": "2025-10-25 18:56:34",
+      "message": "Update 03_embeddings_vectors: add embedding creation",
+      "files": [
+        "AI Engineering/notebooks/03_embeddings_vectors.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 43,
+      "date": "2025-10-26 14:10:29",
+      "message": "Add 04_rag_fundamentals: RAG pipeline notebook",
+      "files": [
+        "AI Engineering/notebooks/04_rag_fundamentals.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 44,
+      "date": "2025-10-26 16:55:38",
+      "message": "Add AI Engineering learning guide",
+      "files": [
+        "AI Engineering/docs/LEARNING_GUIDE.md"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 45,
+      "date": "2025-10-27 08:46:56",
+      "message": "Update 04_rag_fundamentals: add document loading",
+      "files": [
+        "AI Engineering/notebooks/04_rag_fundamentals.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 46,
+      "date": "2025-10-27 14:13:59",
+      "message": "Add AI Engineering cheatsheet",
+      "files": [
+        "AI Engineering/docs/AI_ENG_CHEATSHEET.md"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 47,
+      "date": "2025-10-28 11:56:36",
+      "message": "Add 08_evaluation_testing: evaluation framework notebook",
+      "files": [
+        "AI Engineering/notebooks/08_evaluation_testing.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 48,
+      "date": "2025-10-28 15:01:07",
+      "message": "Add 07_lora_peft: LoRA and PEFT notebook",
+      "files": [
+        "AI Engineering/notebooks/07_lora_peft.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 49,
+      "date": "2025-10-28 16:10:16",
+      "message": "Add 10_capstone_app: capstone application notebook",
+      "files": [
+        "AI Engineering/notebooks/10_capstone_app.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 50,
+      "date": "2025-10-28 16:48:46",
+      "message": "Add self-assessment rubric for AI Engineering",
+      "files": [
+        "AI Engineering/evaluation/self_assessment.md"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 51,
+      "date": "2025-10-28 19:16:32",
+      "message": "Update 04_rag_fundamentals: add chunking",
+      "files": [
+        "AI Engineering/notebooks/04_rag_fundamentals.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 52,
+      "date": "2025-10-28 20:10:34",
+      "message": "Add 06_finetuning_basics: fine-tuning basics notebook",
+      "files": [
+        "AI Engineering/notebooks/06_finetuning_basics.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 53,
+      "date": "2025-10-28 21:04:48",
+      "message": "Add 09_production_deployment: production deployment notebook",
+      "files": [
+        "AI Engineering/notebooks/09_production_deployment.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 54,
+      "date": "2025-10-28 21:40:19",
+      "message": "Add 05_advanced_rag: advanced RAG notebook",
+      "files": [
+        "AI Engineering/notebooks/05_advanced_rag.ipynb"
+      ],
+      "phase": 3
+    },
+    {
+      "id": 55,
+      "date": "2025-10-29 12:25:42",
+      "message": "Add environment variable templates",
+      "files": [
+        "Agentic AI/.env.example",
+        "AI Engineering/.env.example",
+        "ML Engineering/.env.example"
+      ],
+      "phase": 4
+    },
+    {
+      "id": 56,
+      "date": "2025-10-29 19:12:45",
+      "message": "Add dataset sources documentation with Kaggle links",
+      "files": [
+        "DATA_SOURCES.md"
+      ],
+      "phase": 4
+    },
+    {
+      "id": 57,
+      "date": "2025-10-30 18:23:28",
+      "message": "Update ML Engineering README with dataset instructions",
+      "files": [
+        "ML Engineering/README.md"
+      ],
+      "phase": 4
+    },
+    {
+      "id": 58,
+      "date": "2025-10-30 22:33:28",
+      "message": "Create data directory structure",
+      "files": [
+        "ML Engineering/data/raw/.gitkeep",
+        "ML Engineering/models/.gitkeep",
+        "ML Engineering/reports/.gitkeep",
+        "AI Engineering/data/documents/.gitkeep",
+        "AI Engineering/data/training_data/.gitkeep",
+        "Agentic AI/data/examples/.gitkeep"
+      ],
+      "phase": 4
+    },
+    {
+      "id": 59,
+      "date": "2025-10-31 09:15:14",
+      "message": "Add comprehensive README for AI Academy",
+      "files": [
+        "README.md"
+      ],
+      "phase": 4
+    },
+    {
+      "id": 60,
+      "date": "2025-10-31 09:21:01",
+      "message": "Final cleanup and documentation polish",
+      "files": [
+        "Agentic AI/README.md",
+        "AI Engineering/README.md"
+      ],
+      "phase": 4
+    }
+  ]
+}
