@@ -22,7 +22,7 @@ class H2OMLOpsClient:
 
         Args:
             endpoint_url: Full URL to the model scoring endpoint
-                         e.g., https://model.your-mlops-platform.com/<deployment-id>/model/score
+                         e.g., https://api.example.com/v1/models/<model-id>/score
             api_key: Optional API key for authentication
         """
         self.endpoint_url = endpoint_url.rstrip('/')

@@ -10,7 +10,8 @@
       "Bash(git commit -m \"$\\(cat <<''EOF''\nRestructure academy repo and remove company-specific references\n\nChanges:\n- Rename ''MLE Capstone Project'' to ''ML Engineering'' for consistency\n- Move standalone workshops into ML Engineering/notebooks\n- Remove enterprise-specific references \\(nexus URLs, JDK paths\\)\n- Rename ''Bank Customer Churn'' to ''Customer Churn'' dataset\n- Replace ''banks'' with ''financial institutions''\n- Add .gitattributes to treat notebooks as binary\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "WebFetch(domain:github.com)",
       "Bash(grep:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
