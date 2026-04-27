@@ -1,0 +1,7 @@
+# Claude Code local settings (per-user, do not track)
+.claude/
+
+# Commit history fabrication tooling — intentionally untracked
+generate_commits.py
+execute_commits.py
+commit_plan.json
