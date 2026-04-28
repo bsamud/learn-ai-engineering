@@ -5,3 +5,7 @@
 generate_commits.py
 execute_commits.py
 commit_plan.json
+
+# Environment files (secrets)
+.env
+**/.env
