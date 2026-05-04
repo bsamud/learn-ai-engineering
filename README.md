@@ -1,4 +1,4 @@
-# AI Academy
+# AI Learning
 
 **Open-source learning tracks for AI and Machine Learning Engineering.**
 
